@@ -23,7 +23,7 @@ def generate(args):
             except ZeroDivisionError:
                 result = 'undefined'
 
-            f.write("{} {} {} {}\n".format(op1, operator[0], op2, result))
+            f.write(f"{op1} {operator[0]} {op2} {result}\n")
 
 if __name__ == '__main__':
 
